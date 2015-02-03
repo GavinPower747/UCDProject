@@ -1,0 +1,104 @@
+﻿
+
+<div class="parallax-image-wrapper parallax-image-wrapper-100"
+     data-anchor-target="#headerTitle + .gap"
+     data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+     data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+    <div class="parallax-image parallax-image-100"
+         style="background-image:url('/Content/Images/HTML5FrontPage.jpg')"
+         data-anchor-target="#headerTitle + .gap"
+         data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+         data-top-bottom="transform: translate3d(0px, 80%, 0px);"></div>
+    <!--the +/-80% translation can be adjusted to control the speed difference of the image-->
+</div>
+
+<div class="parallax-image-wrapper parallax-image-wrapper-100"
+     data-anchor-target="#courses + .gap"
+     data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+     data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+    <div class="parallax-image parallax-image-100"
+         style="background-image:url('/Content/Images/JavaFrontPage.png');"
+         data-anchor-target="#courses + .gap"
+         data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+         data-top-bottom="transform: translate3d(0px, 80%, 0px);"></div>
+</div>
+
+<div id="skrollr-body">
+    <div class="header content-full" id="headerTitle">
+        <div id="registerPanelContainer">
+            <div class="large-7 large-offset-1" id="registerPanel">
+                <h1>Welcome To CodeTuts!</h1>
+                <h3>Register now for daily expertly written tutorials on various programming languages and frameworks.</h3>
+                <a class="button radius" href="http://37.187.35.32/account/register">Register Now!</a>
+            </div>
+        </div>
+        <div class="communityPanel">
+            <div class="row">
+                <div class="small-8 columns">
+                    <h4>Join the ever expanding CodeTuts community</h4>
+                    <p>Get help, make connections, learn together</p>
+                </div>
+                <div class="small-4 columns">
+                    <button class="button radius checkitbtn">Check it out!</button>
+                </div>
+            </div>
+        </div>
+        <div class="large-12">
+            <h3 class="large-text-center">Take the pain out of learning to program!</h3>
+        </div>
+    </div>
+    <div class="gap gap-100" style="background-image:url(/Content/Images/HTML5FrontPage.jpg);"></div>
+    <div class="content" id="courses">
+        <div class="row">
+            <div class="large-12">
+                <div class="large-4 column course">
+                    <figure class="courseThumbnail">
+                        <img src="~/Content/Images/Placeholder.jpg" />
+                    </figure>
+                    <h4>Example Course</h4>
+                    <p>Some Course Text</p>
+                </div>
+                <div class="large-4 column course">
+                    <figure class="courseThumbnail">
+                        <img src="~/Content/Images/Placeholder.jpg" />
+                    </figure>
+                    <h4>Example Course</h4>
+                    <p>Some Course Text</p>
+                </div>
+                <div class="large-4 column course">
+                    <figure class="courseThumbnail">
+                        <img src="~/Content/Images/Placeholder.jpg" />
+                    </figure>
+                    <h4>Example Course</h4>
+                    <p>Some Course Text</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gap gap-100" style="background-image:url(/Content/Images/JavaFrontPage.png);"></div>
+    <div id="footer">
+        <div class="row">
+            <div class="disclaimer medium-10 pull-4 column">
+                <p>Created, designed and maintained by Gavin Power as part of the User Centered Design Module</p> 
+                <a>Disclaimer</a>
+            </div>
+            <div class="medium-2 push-4 column">
+                <div class="socialmediacontainer">
+                    <span class='facebook'><a href="http://www.facebook.com/gavinpower747"></a></span>
+                    <span class='linkedin'><a href="https://www.linkedin.com/profile/view?id=341868099&trk=nav_responsive_tab_profile_pic"></a></span>
+                    <span class='email'><a href="mailto:gavinpower747@hotmail.com?subject=CodeTuts"></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/Libs/Skrollr/Skrollr.min.js"></script>
+<script type="text/javascript">
+    skrollr.init({
+        smoothScrolling: true,
+        forceHeight: true
+    });
+</script>
