@@ -1,24 +1,81 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+      background: white;
+      color: #222222;
+      padding: 0;
+      margin: 0;
+      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 150%;
+      position: relative;
+      cursor: auto;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+#headerTitle {
+    padding : 0;
+    height: 100%;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+#registerPanelContainer {
+     background:url(/Content/Images/BackGround-Image.jpg) no-repeat left fixed;
+     height:80%;
+     padding: 1em;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+#registerPanel {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1em;
+    border-radius:20px;
+}
+
+#registerPanel > h1 {
+    color:white;
+}
+
+#registerPanel > h3 {
+    color: white;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+}
+
+.communityPanel div div h4 {
+    color:white;
+}
+
+h1, h2, h3, h4 {
+    font-family:"Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight: 300;
+}
+
+.communityPanel {
+    background-color: #0669A4;
+}
+
+.checkitbtn {
+    margin-top: 1em;
+}
+
+.socialmediacontainer {
+    margin-top: 1em;
+}
+
+.facebook {
+    background-image:url(/Content/Images/facebookicon.png);
+    padding-top: 16px;
+    padding-right: 30px;
+}
+
+.linkedin {
+    background-image:url(/Content/Images/linkedinicon.png);
+    padding-top: 16px;
+    padding-right: 30px;
+}
+
+.email {
+    background-image:url(/Content/Images/emailicon.png);
+    padding-top: 16px;
+    padding-right: 30px;
 }
