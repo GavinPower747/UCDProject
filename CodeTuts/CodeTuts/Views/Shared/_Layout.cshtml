@@ -8,6 +8,7 @@
     @Styles.Render("~/Content/foundation/css")
     <link href="~/Content/Skrollr.css" rel="stylesheet" />
     <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/Libs/Angular/angular.min.js"></script>
     @RenderSection("head", required: false)
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -31,8 +32,10 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/foundation")
+    <script src="~/Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+    <script src="~/Scripts/angular-ui/ui-bootstrap.min.js"></script>
     <script>
-        (document).foundation();
+        document.foundation();
     </script>
     @RenderSection("scripts", required: false)
 </body>

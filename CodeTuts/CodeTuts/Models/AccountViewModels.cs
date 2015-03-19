@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace CodeTuts.Models
@@ -64,6 +65,15 @@ namespace CodeTuts.Models
 
     public class RegisterViewModel
     {
+        [Required]
+        [Display(Name = "Real Name")]
+        public string RealName { get; set; }
+
+        [Required]
+        [DataType(DataType.Date)]
+        [Display(Name = "Date Of Birth")]
+        public DateTime DOB { get; set; }
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]

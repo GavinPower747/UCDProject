@@ -11,6 +11,10 @@
       cursor: auto;
 }
 
+form {
+    padding: 20px;
+}
+
 #headerTitle {
     padding : 0;
     height: 100%;

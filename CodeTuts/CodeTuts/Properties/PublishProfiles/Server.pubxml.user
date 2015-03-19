@@ -17,7 +17,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/03/2015 15:14:13</publishTime>
     </File>
     <File Include="bin/CodeTuts.dll">
-      <publishTime>02/03/2015 23:46:19</publishTime>
+      <publishTime>02/10/2015 23:00:12</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>02/03/2015 15:14:13</publishTime>
@@ -383,7 +383,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/03/2015 15:14:13</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
-      <publishTime>02/03/2015 15:14:13</publishTime>
+      <publishTime>02/10/2015 22:38:45</publishTime>
     </File>
     <File Include="Views/Account/ResetPassword.cshtml">
       <publishTime>02/03/2015 15:14:13</publishTime>
@@ -410,7 +410,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/03/2015 15:14:13</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>02/03/2015 23:45:40</publishTime>
+      <publishTime>02/10/2015 22:38:45</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>02/03/2015 15:14:13</publishTime>
