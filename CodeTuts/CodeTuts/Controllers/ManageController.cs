@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using CodeTuts.Models;
+using CodeTuts.Web.Models;
 
-namespace CodeTuts.Controllers
+namespace CodeTuts.Web.Controllers
 {
     [Authorize]
     public class ManageController : Controller

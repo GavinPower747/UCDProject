@@ -1,18 +1,94 @@
 ﻿body {
       background: white;
       color: #222222;
+      font-family: 'Abel', Verdana, Geneva, Tahoma, sans-serif
       padding: 0;
       margin: 0;
-      font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-weight: normal;
       font-style: normal;
       line-height: 150%;
       position: relative;
       cursor: auto;
+      /*background:url(/Content/Images/background-main.jpg);*/
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
 }
 
 form {
     padding: 20px;
+}
+
+.LogoAccountPanel {
+    position:relative;
+    top: -15px;
+    left: 6px;
+    float: right;
+}
+
+.center-text {
+    text-align:center;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+#MainContainer {
+    /*background-color: #e6e6ed;*/
+    height: 100%;
+}
+
+.newspost {
+    background-color: WHite;
+    padding: 20px;
+    margin-top: 1em;
+    cursor: pointer;
+    box-shadow: 0px 4px 5px 5px rgba(136,136,136,1);
+}
+
+#AccountPanel {
+    margin-top: 1em;
+    background-color:white;
+    padding: 0;
+    position: relative;
+    float: right;
+}
+
+#AccountPanel ul li {
+    width: 100%;
+}
+
+#AccountPanel ul li:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+#AccountPanel ul li i {
+    margin-left: 1em;
+}
+
+#AccountPanel ul li hr {
+    border-color: #FFEEEE;
+    width: 100%;
+}
+
+.AccountListActive {
+    font-weight: bold;
+}
+
+.NewsPosts {
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+    padding: 10px;
+}
+
+hr {
+    border: solid 1px grey;
+    margin: 0 auto;
+    width: 95%;
 }
 
 #headerTitle {
@@ -21,9 +97,13 @@ form {
 }
 
 #registerPanelContainer {
-     background:url(/Content/Images/BackGround-Image.jpg) no-repeat left fixed;
-     height:80%;
-     padding: 1em;
+    background:url(/Content/Images/BackGround-Image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:80%;
+    padding: 1em;
 }
 
 #registerPanel {
@@ -40,9 +120,13 @@ form {
     color: white;
 }
 
-#footer {
+#footer, #footer > .columns {
     background-color: #333;
     color: white;
+}
+
+.inlineLabel {
+    display: inline-block;
 }
 
 .communityPanel div div h4 {
@@ -82,4 +166,16 @@ h1, h2, h3, h4 {
     background-image:url(/Content/Images/emailicon.png);
     padding-top: 16px;
     padding-right: 30px;
+}
+
+.course {
+    background-color: lightskyblue;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#courses {
+    background-color: #0669A4;
+    overflow: auto;
 }

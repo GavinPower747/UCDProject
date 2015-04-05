@@ -1939,7 +1939,7 @@ meta.foundation-mq-topbar {
       border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
       border-left-style: solid;
       margin-right: 0.9375rem;
-      margin-top: -4.5px;
+      margin-top: -px;
       position: absolute;
       top: 50%;
       right: 0; }

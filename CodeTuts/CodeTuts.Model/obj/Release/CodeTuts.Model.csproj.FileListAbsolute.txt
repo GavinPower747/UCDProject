@@ -1,0 +1,9 @@
+C:\dev\UCDProject\CodeTuts\CodeTuts.Model\bin\Release\CodeTuts.Model.dll.config
+C:\dev\UCDProject\CodeTuts\CodeTuts.Model\bin\Release\CodeTuts.Model.dll
+C:\dev\UCDProject\CodeTuts\CodeTuts.Model\bin\Release\CodeTuts.Model.pdb
+C:\dev\UCDProject\CodeTuts\CodeTuts.Model\bin\Release\EntityFramework.dll
+C:\dev\UCDProject\CodeTuts\CodeTuts.Model\bin\Release\EntityFramework.SqlServer.dll
+C:\dev\UCDProject\CodeTuts\CodeTuts.Model\bin\Release\EntityFramework.xml
+C:\dev\UCDProject\CodeTuts\CodeTuts.Model\bin\Release\EntityFramework.SqlServer.xml
+C:\dev\UCDProject\CodeTuts\CodeTuts.Model\obj\Release\CodeTuts.Model.dll
+C:\dev\UCDProject\CodeTuts\CodeTuts.Model\obj\Release\CodeTuts.Model.pdb

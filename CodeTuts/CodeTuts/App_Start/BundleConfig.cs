@@ -1,7 +1,7 @@
 using System.Web;
 using System.Web.Optimization;
 
-namespace CodeTuts
+namespace CodeTuts.Web
 {
     public class BundleConfig
     {

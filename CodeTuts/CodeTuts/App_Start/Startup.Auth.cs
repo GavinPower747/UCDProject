@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using CodeTuts.Models;
+using CodeTuts.Web.Models;
 
-namespace CodeTuts
+namespace CodeTuts.Web
 {
     public partial class Startup
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(CodeTuts.Startup))]
-namespace CodeTuts
+[assembly: OwinStartupAttribute(typeof(CodeTuts.Web.Startup))]
+namespace CodeTuts.Web
 {
     public partial class Startup
     {

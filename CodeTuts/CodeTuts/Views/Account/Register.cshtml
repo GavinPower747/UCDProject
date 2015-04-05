@@ -1,4 +1,4 @@
-﻿@model CodeTuts.Models.RegisterViewModel
+﻿@model CodeTuts.Web.Models.RegisterViewModel
 @{
     ViewBag.Title = "Register";
 }
@@ -14,6 +14,12 @@
             <h4>Create a new account.</h4>
             <hr />
             @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div>
+                @Html.LabelFor(m => m.UserName, new { @class = "medium-2" })
+                <div class="medium-5">
+                    @Html.TextBoxFor(m => m.UserName, new { @class = "" })
+                </div>
+            </div>
             <div>
                 @Html.LabelFor(m => m.RealName, new { @class= "medium-2"})
                 <div class="medium-5">

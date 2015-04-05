@@ -1,6 +1,6 @@
 using System.Web.Optimization;
 
-namespace CodeTuts
+namespace CodeTuts.Web
 {
     public static class Foundation
     {

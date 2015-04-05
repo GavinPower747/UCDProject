@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace CodeTuts.Controllers
+namespace CodeTuts.Web.Controllers
 {
     public class HomeController : Controller
     {
@@ -17,6 +17,7 @@ namespace CodeTuts.Controllers
         [Authorize]
         public ActionResult Main()
         {
+            ViewBag.CurrentUser = User.Identity.Name;
             return View();
         }
 

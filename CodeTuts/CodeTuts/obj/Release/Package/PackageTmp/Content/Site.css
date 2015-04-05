@@ -11,15 +11,23 @@
       cursor: auto;
 }
 
+form {
+    padding: 20px;
+}
+
 #headerTitle {
     padding : 0;
     height: 100%;
 }
 
 #registerPanelContainer {
-     background:url(/Content/Images/BackGround-Image.jpg) no-repeat left fixed;
-     height:80%;
-     padding: 1em;
+    background:url(/Content/Images/BackGround-Image.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:80%;
+    padding: 1em;
 }
 
 #registerPanel {
@@ -36,9 +44,13 @@
     color: white;
 }
 
-#footer {
+#footer, #footer > .columns {
     background-color: #333;
     color: white;
+}
+
+.inlineLabel {
+    display: inline-block;
 }
 
 .communityPanel div div h4 {
@@ -78,4 +90,16 @@ h1, h2, h3, h4 {
     background-image:url(/Content/Images/emailicon.png);
     padding-top: 16px;
     padding-right: 30px;
+}
+
+.course {
+    background-color: lightskyblue;
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#courses {
+    background-color: #0669A4;
+    overflow: auto;
 }

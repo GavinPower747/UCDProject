@@ -44,8 +44,15 @@
 		width:100%;
 		background-repeat:no-repeat;
 		background-position:center;
-		background-size:cover;
 	}
+
+    .paralax-image-contain {
+    background-size:contain;
+}
+
+.paralax-image-cover {
+    background-size:cover;
+}
 
 	.parallax-image-50 {
 		height:200%;

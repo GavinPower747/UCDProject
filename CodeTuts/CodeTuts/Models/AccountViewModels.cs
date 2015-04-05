@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace CodeTuts.Models
+namespace CodeTuts.Web.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
@@ -50,9 +50,8 @@ namespace CodeTuts.Models
     public class LoginViewModel
     {
         [Required]
-        [Display(Name = "Email")]
-        [EmailAddress]
-        public string Email { get; set; }
+        [Display(Name = "User Name")]
+        public string UserName { get; set; }
 
         [Required]
         [DataType(DataType.Password)]
@@ -65,6 +64,10 @@ namespace CodeTuts.Models
 
     public class RegisterViewModel
     {
+        [Required]
+        [Display(Name = "User Name")]
+        public string UserName { get; set; }
+
         [Required]
         [Display(Name = "Real Name")]
         public string RealName { get; set; }

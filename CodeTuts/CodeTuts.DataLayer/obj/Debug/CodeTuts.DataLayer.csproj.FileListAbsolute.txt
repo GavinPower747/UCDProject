@@ -1,0 +1,12 @@
+C:\dev\UCDProject\CodeTuts\CodeTuts.DataLayer\bin\Debug\CodeTuts.DataLayer.dll.config
+C:\dev\UCDProject\CodeTuts\CodeTuts.DataLayer\bin\Debug\CodeTuts.DataLayer.dll
+C:\dev\UCDProject\CodeTuts\CodeTuts.DataLayer\bin\Debug\CodeTuts.DataLayer.pdb
+C:\dev\UCDProject\CodeTuts\CodeTuts.DataLayer\bin\Debug\CodeTuts.Model.dll
+C:\dev\UCDProject\CodeTuts\CodeTuts.DataLayer\bin\Debug\EntityFramework.dll
+C:\dev\UCDProject\CodeTuts\CodeTuts.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\dev\UCDProject\CodeTuts\CodeTuts.DataLayer\bin\Debug\CodeTuts.Model.pdb
+C:\dev\UCDProject\CodeTuts\CodeTuts.DataLayer\bin\Debug\EntityFramework.xml
+C:\dev\UCDProject\CodeTuts\CodeTuts.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\dev\UCDProject\CodeTuts\CodeTuts.DataLayer\obj\Debug\CodeTuts.DataLayer.csprojResolveAssemblyReference.cache
+C:\dev\UCDProject\CodeTuts\CodeTuts.DataLayer\obj\Debug\CodeTuts.DataLayer.dll
+C:\dev\UCDProject\CodeTuts\CodeTuts.DataLayer\obj\Debug\CodeTuts.DataLayer.pdb

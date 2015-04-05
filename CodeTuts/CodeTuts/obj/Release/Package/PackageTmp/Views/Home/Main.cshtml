@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="~/Scripts/Controllers/MainController.js"></script>
+<div class="medium-8 medium-offset-2" ng-app="MainPage" ng-controller="MainController" ng-init="setCurrentUser(@User.Identity.Name)">
+    <div class="medium-5">
+        <div class="newspost" ng-repeat="news in NewsPosts">
+            <h4 class="newsauthor">{{news.NewsAuthor}}</h4>
+            <p class="newsbody">{{news.NewsBody}}</p>
+            <br />
+            <small>Posted on: {{news.LogDate}}</small>
+        </div>
+    </div>
+    <div class="medium-5" id="AccountPanel">
+        <h3>Welcome {{currentUser}}</h3>
+        <ul class="no-bullet">
+            <li><a href="http://37.187.35.32/home/MyCourses/">My Courses</a></li>
+        </ul>
+    </div>
+</div>
+

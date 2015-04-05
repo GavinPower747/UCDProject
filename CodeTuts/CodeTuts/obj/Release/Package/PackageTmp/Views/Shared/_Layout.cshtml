@@ -8,31 +8,30 @@
     @Styles.Render("~/Content/foundation/css")
     <link href="~/Content/Skrollr.css" rel="stylesheet" />
     <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/Libs/Angular/angular.min.js"></script>
+    <script src="~/Scripts/Libs/jQuery/jquery-1.10.2.min.js"></script>
     @RenderSection("head", required: false)
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <nav class="top-bar docs-bar hide-for-small" data-topbar>
+    <nav class="top-bar docs-bar hide-for-small" data-topbar role="navigation">
         <ul class="title-area">
             <li class="name">
                 <h1><a href="http://37.187.35.32">CodeTuts</a></h1>
             </li>
         </ul>
-
         <section class="top-bar-section">
-            <ul class="right">
-                <li>TestLink</li>
-                <li>TestLink</li>
-                <li>TestLink</li>
-            </ul>
+            @Html.Partial("_LoginPartial")
         </section>
     </nav>
     @RenderBody()
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/foundation")
+    <script src="~/Scripts/angular-ui/ui-bootstrap-tpls.min.js"></script>
+    <script src="~/Scripts/angular-ui/ui-bootstrap.min.js"></script>
     <script>
-        (document).foundation();
+        document.foundation();
     </script>
     @RenderSection("scripts", required: false)
 </body>

@@ -3,11 +3,31 @@
     ViewBag.Title = "View";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-
-<div class="medium-8 medium-offset-2">
-    <div>
-
+<script src="~/Scripts/Controllers/MainController.js"></script>
+<script src="~/Scripts/ViewModels/NewsPost.js"></script>
+<link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+<div id="MainContainer" class="medium-8 medium-offset-2 columns" ng-app="MainPage" ng-controller="MainController" ng-init="setCurrentUser('@ViewBag.CurrentUser')">
+    <div class="medium-8 column NewsPosts">
+        <div class="newspost" ng-repeat="news in NewsPosts">
+            <h4 class="newsauthor center-text">{{news.NewsAuthor}}</h4>
+            <span class="time center center-text"><i class="fa fa-clock-o"></i> {{news.LogDate}}</span>
+            <hr />
+            <p class="newsbody">{{news.NewsContent}}</p>
+            <button class="button radius info center">Read More</button>
+            
+        </div>
+        <hr />
+    </div>
+    <div class="medium-3 medium-offset-1 column" id="AccountPanel">
+        <img class="LogoAccountPanel" width="45" height="45" src="~/Content/Images/CodetutsLogoBlack.png" />
+        <h5 class="center-text">{{currentUser}}</h5>
+        <ul class="no-bullet center" id="AccountList">
+            <li class="divider"><hr/></li>
+            <li class="AccountListActive"><i class="fa fa-chevron-left"></i> News Posts</li>
+            <li class="divider"><hr/></li>
+            <li><i class="fa fa-chevron-left"></i> My Courses</li>
+            <li class="divider"><hr /> </li>
+        </ul>
     </div>
 </div>
 
